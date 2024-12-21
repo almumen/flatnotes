@@ -40,7 +40,7 @@ const router = createRouter({
 });
 
 router.afterEach((to) => {
-  let title = "EMG Knowledge Sharing";
+  let title = "EMG Knowledge Share";
   if (to.name === "note") {
     if (to.params.title) {
       title = `${to.params.title} - ${title}`;
